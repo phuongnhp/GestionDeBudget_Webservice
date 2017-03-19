@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/metier/IPartageMetier.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/metier/PartageMetier.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/dao/DroitDao.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/metier/IDroitMetier.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/metier/OperationDetailMetier.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/service/budget/IBudgetService.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/dao/OperationDetailDao.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/metier/IOperationDetailMetier.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/service/budget/BudgetServiceResult.java</file>
+            <file>file:/home/phuong/PAWS/project/GestionDeBudget_Webservice/src/java/metier/DroitMetier.java</file>
+        </group>
+    </open-files>
+</project-private>

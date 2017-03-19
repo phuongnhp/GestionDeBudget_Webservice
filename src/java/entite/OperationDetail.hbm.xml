@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="entite.OperationDetail" table="OPERATIONDETAIL" schema="BUDGET">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID"/>
+            <generator class="identity" />
+        </id>
+        <property name="label" type="string">
+            <column name="LABEL" length="45" />
+        </property>
+        <property name="categorie" type="java.lang.Integer">
+            <column name="CATEGORIE"/>
+        </property>
+        <property name="montant" type="java.lang.Double">
+            <column name="MONTANT"/>
+        </property>
+        <property name="montantPrevu" type="java.lang.Double">
+            <column name="MONTANTPREVU"/>
+        </property>
+        <property name="dateOp" type="java.util.Date">
+            <column name="DATEOP"/>
+        </property>
+        <property name="commentaire" type="string">
+            <column name="COMMENTAIRE"/>
+        </property>
+        <property name="username" type="string">
+            <column name="USERNAME"/>
+        </property>
+        <property name="opType" type="java.lang.Integer">
+            <column name="OPTYPE"/>
+        </property>
+    </class>
+</hibernate-mapping>

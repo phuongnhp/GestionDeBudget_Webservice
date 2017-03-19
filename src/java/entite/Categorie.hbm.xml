@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="entite.Categorie" schema="BUDGET" table="CATEGORIE">
+    <id name="id" type="java.lang.Integer">
+      <column name="ID"/>
+    </id>
+    <property name="catNom" type="string">
+      <column length="45" name="CATNOM"/>
+    </property>
+    <property name="catType" type="java.lang.Integer">
+      <column name="CATTYPE"/>
+    </property>
+  </class>
+</hibernate-mapping>

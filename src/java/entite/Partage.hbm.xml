@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="entite.Partage" table="PARTAGE" schema="BUDGET">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID"/>
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column length="45" name="USERNAME1"/>
+        </property>
+        <property name="actor" type="string">
+            <column length="45" name="USERNAME2"/>
+        </property>
+        <property name="droit" type="java.lang.Integer">
+            <column name="IDDROIT"/>
+        </property>
+    </class>
+</hibernate-mapping>
